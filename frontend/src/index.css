@@ -1,0 +1,180 @@
+
+body{
+  background-color: whitesmoke;
+}
+
+#h1Index{
+  color: black;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* HEADER */
+
+
+.header{
+  display: flex;
+  justify-content: flex-start; /* Alinea los elementos hacia la izquierda */
+  align-items: center; /* Centra los elementos verticalmente */
+  text-align: center; /* Centra el texto horizontalmente dentro del div */
+
+}
+
+#h1Index{
+  margin: 10px;
+}
+
+/* HEADER Smartphones */
+
+@media (max-width: 767px){
+
+header{
+    display:inline-block;
+}
+
+#h1Index{
+  margin: 3px;
+  
+}
+
+}
+
+  /* LOGO CARRITO DE COMPRAS */
+
+
+  #carritoCompras{
+    justify-content: flex-end;
+  }
+
+  /* LOGO CARRITO Smartphones */
+  
+  @media (max-width: 767px){
+
+    #carritoCompras{
+      margin-left: 5px;
+      margin-bottom: 40px;
+    }
+  
+  
+  }
+
+  /* LOGO CARRITO Tabletas pequeñas */
+  @media (min-width: 768px) and (max-width: 1023px){
+
+    #carritoCompras{
+      margin-left: 100px;
+    }
+  }
+
+
+  /* LOGO CARRITO Laptops y tabletas grandes */
+
+  @media(min-width: 1024px) and (max-width: 1439px){
+
+    #carritoCompras{
+      margin-left: 500px;
+    }
+
+  }
+
+
+  
+
+  /* NAV */
+
+
+.navbar {
+  background-color: hsl(0, 0%, 0%);
+  justify-content: flex-start;
+  height: 70px;
+  display: flex;
+}
+
+
+/* Texto de la barra de navegacion*/
+.navbar a{
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 15px;
+}
+
+
+/* NAV Smartphones */
+
+@media (max-width: 767px){
+
+/* Texto de la barra de navegacion*/
+.navbar a{
+  text-align: center;
+  font-size: 15px;
+  margin: 5px;
+}
+
+.navbar {
+  background-color: hsl(244, 89%, 15%);
+  justify-content: flex-start;
+  height: 30px;
+  display: flex;
+}
+
+
+}
+
+
+/* FOOTER */
+
+footer{
+
+  background-color: rgb(0, 1, 48);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 30px;
+  margin-bottom: 0px;
+  padding: 20px;
+  flex-shrink: 0; /* Evita que el footer se encoja cuando hay poco contenido */
+}
+
+
+main{
+
+  flex: 1;
+}
+
+
+
+
+
+/* Boton WhatsApp*/
+
+.whatsapp-button {
+  position: fixed; /* Hace que el botón sea fijo en la pantalla */
+  bottom: 20px; /* Distancia desde la parte inferior */
+  right: 20px; /* Distancia desde el borde derecho */
+  z-index: 1000; /* Asegura que esté por encima de otros elementos */
+}
+
+.whatsapp-icon {
+  transition: transform 0.3s ease; /* Agrega una transición suave */
+  margin-left: 20px;
+}
+
+.whatsapp-icon:hover {
+  transform: scale(1.5); 
+}
+
+
+/* Boton Wha Smartphones */
+
+@media (max-width: 767px){
+
+.whatsapp-icon {
+  height: 50px;
+  width: 50px;
+}
+
+
+
+}

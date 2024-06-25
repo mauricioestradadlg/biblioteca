@@ -1,0 +1,123 @@
+/* Header */
+#h1Index {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+
+
+/* Inicio */
+
+
+  .imagenInicio {
+    width: 370px;
+    height: 200px;
+  }
+
+
+  /* AboutUs */
+#h1AU {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 20px;
+}
+
+#imagenAU {
+  width: 800px;
+  height: 500px;
+}
+
+#parrafoAU {
+  text-align: justify;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+
+/* PRODUCTOS */
+
+#divProducto {
+  display:inline-flex;
+  margin: 10px;
+  }
+  
+  .producto {
+  display: flex;
+  flex-direction: column;
+  margin: 40px;
+  }
+  
+  .imagenProducto {
+  height: 300px;
+  width: 400px;
+  margin: 20px;
+  }
+  
+  .h4Producto {
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  text-shadow: 2px 5px 5px hsl(0, 0%, 0%);
+  margin: 45px;
+  }
+  
+  #h2P{
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(0, 0, 0);
+  background-color:  1px 5px 5px black;
+  }
+  
+  .nombre, .precio{
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(0, 0, 0);
+  background-color:  1px 5px 5px black;
+  }
+  
+
+  .categorias{
+    display: flex;
+  }
+  
+  
+  @media (max-width: 767px){
+
+    .categorias{
+      display: block;
+    }
+
+    #h1Producto{
+      font-size: 25px;
+    }
+
+    .imagenProducto {
+      height: 150px;
+      width: 200px;
+      }
+
+      .nombre, .precio{
+        font-size: 15px;}
+  
+  }
+  
+  
+
+/* BOTONES */
+
+
+button{
+
+  background-color: rgb(0, 0, 0);
+  color: white;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-color: black;
+ 
+  
+  }
+
+  .botonProducto{
+    width: 130px;
+    height: 60px;
+    
+    }
